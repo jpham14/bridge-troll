@@ -20,7 +20,7 @@ $ npm install
 
 ## Development
 
-To run the web site in dev mode, use:
+To run the web site in dev mode use:
 
 ```
 npm start
