@@ -11,7 +11,7 @@ before_install:
   - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
 before_deploy: 
   - npm run build
-  - echo "node_modules\n" > .gitignore
+  - echo "node_modules" > .gitignore
 deploy:
   provider: pages
   skip-cleanup: true
